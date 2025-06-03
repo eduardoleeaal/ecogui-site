@@ -1,1 +1,1 @@
-# ecogui-site
+# Ecogui
