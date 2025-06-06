@@ -170,6 +170,39 @@ p {
     transform: translateY(-10px);
 }
 
+/* Seção Saiba Mais */
+.saiba-mais {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+.saiba-mais a {
+    display: inline-block;
+    background-color: var(--verde-primario);
+    color: var(--branco);
+    padding: 0.8rem 2rem;
+    border: 2px solid var(--verde-primario);
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.saiba-mais a:hover {
+    background-color: transparent;
+    color: var(--verde-primario);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+}
+
+.saiba-mais a:active {
+    transform: translateY(0);
+}
+
 .card-img {
     height: 200px;
     overflow: hidden;
