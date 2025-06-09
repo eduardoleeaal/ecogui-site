@@ -104,7 +104,7 @@ nav {
     position: fixed;
     top: 72px; /* ajuste conforme a altura do header */
     left: 0;
-    height: 5%;
+    height: 6%;
     width: 100%;
     z-index: 99;
 }
