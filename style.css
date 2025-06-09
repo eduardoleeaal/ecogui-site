@@ -97,9 +97,16 @@ header {
 }
 
 /* Navegação */
+/* Torna a navegação fixa no topo */
 nav {
     background-color: var(--verde-secundario);
     padding: 1rem;
+    position: fixed;
+    top: 72px; /* ajuste conforme a altura do header */
+    left: 0;
+    height: 5%;
+    width: 100%;
+    z-index: 99;
 }
 
 .nav-links {
